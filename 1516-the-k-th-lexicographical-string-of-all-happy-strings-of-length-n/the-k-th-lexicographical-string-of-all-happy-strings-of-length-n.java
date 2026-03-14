@@ -43,6 +43,6 @@ class Solution {
             sb.deleteCharAt(sb.length() - 1);
         }
 
-        return "";
+         return "";
     }
 }
