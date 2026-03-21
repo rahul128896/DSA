@@ -1,4 +1,4 @@
-// Added using AI
+
 class Solution {
     public int[][] minAbsDiff(int[][] grid, int k) {
         int m = grid.length, n = grid[0].length;
@@ -22,6 +22,6 @@ class Solution {
                 ans[i][j] = (mn == Integer.MAX_VALUE) ? 0 : mn;
             }
         }
-        return ans;
+        return ans ;
     }
 }
