@@ -20,7 +20,7 @@ class Solution {
 
         long sumTop = 0;
 
-        // 🔹 Horizontal cuts
+        // Horizontal cuts
         for (int i = 0; i < m - 1; i++) {
             for (int j = 0; j < n; j++) {
                 int val = grid[i][j];
@@ -45,7 +45,7 @@ class Solution {
 
         long sumLeft = 0;
 
-        // 🔹 Vertical cuts
+        // Vertical cuts
         for (int j = 0; j < n - 1; j++) {
             for (int i = 0; i < m; i++) {
                 int val = grid[i][j];
@@ -91,6 +91,5 @@ class Solution {
         }
 
         return mp.getOrDefault(diff, 0) > 0;
-        
     }
 }
